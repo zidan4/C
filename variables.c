@@ -11,7 +11,7 @@ int main () {
   printf("var2 is %d\n", var2);
   printf("var1 is %d\n", var1); // var1 is uninitialized, may contain garbage value
 
-  double pi = 3.14;
+  double pi = 3.14159;
   printf("Value of pi is %lf\n", pi);
 
   float e = 2.71828;
@@ -20,5 +20,12 @@ int main () {
   char grade = 'A';
   printf("Grade is %c\n", grade);
 
+  sizeof(int);
+  sizeof(double);
+  
+  printf("Size of int: %zu bytes\n", sizeof(int));
+  printf("Size of double: %zu bytes\n", sizeof(double));
+  printf("Size of float: %zu bytes\n", sizeof(float));
+  printf("Size of char: %zu bytes\n", sizeof(char));
   return 0;
 }
